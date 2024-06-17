@@ -1,7 +1,6 @@
 # attendance-taker
 My first project with python
 
-Application drive link  https://drive.google.com/drive/folders/1ihRd_Lq3tLOgWy4XqAXpAvnqSk9b6CX3?usp=sharing
 
 python version-3.10.11
 pyQt6-6.4
