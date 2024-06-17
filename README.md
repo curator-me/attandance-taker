@@ -8,21 +8,29 @@ pyQt6-6.4
 
 I used QtDesigner to create the interface and then develop the application in a separate .py file.  
 
-The app contains 5 tabs 
-  -> take attaedance 
-  -> add new student
-  -> view all student info
-  -> add new course
-  -> view all course
+ 
+## Getting Started
+ 
 
-It can
-  -> store student info, course info, all attendance in three seperate files in a specefic directory
-  -> check if the directory or files already exist or not
-  -> ignore duplicate stident id
-  -> ignore if any required entry remains incomplete
-  -> ignore diplucate course code
-  -> ignore if any required entry remains incomplete
-  -> stop taking attendance if there is no student or course
+Open terminal using Ctrl + Alt + T. Run the following command <br>
+```ruby 
+   git clone https://github.com/curator-me/attendance-take.git
+```
 
-i am acpecting suggestion on this project.
-pardon my mistakes.
+
+### Installing Pyinstaller:
+
+```ruby
+   pip install pyinstaller
+```
+
+
+### Create .exe:
+```ruby 
+   pyinstaller --onefile TakeAttendance.py
+```
+
+### Run:
+```ruby 
+   dist/TakeAttendance.exe
+```
