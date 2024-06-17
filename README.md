@@ -6,6 +6,8 @@ Application drive link  https://drive.google.com/drive/folders/1ihRd_Lq3tLOgWy4X
 python version-3.10.11
 pyQt6-6.4
 
+I used QtDesigner to create the interface and then develop the application in a separate .py file.  
+
 The app contains 5 tabs 
   -> take attaedance 
   -> add new student
